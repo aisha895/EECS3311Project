@@ -30,48 +30,6 @@ The Warehouse Management System automates order processing and inventory managem
 ### GUI for Visualization:
 1. Interactive interfaces for login and placing orders.
 
-
-Here’s a comprehensive README.md for your project based on the provided code:
-
-EECS3311 Warehouse Management System
-This repository contains the implementation of a Warehouse Management System developed for EECS3311 at York University. The system is designed to manage product orders, inventory levels, and restocking processes efficiently, incorporating features such as user authentication, order processing, and a GUI for visualization.
-
-Table of Contents
-About the Project
-Features
-Project Structure
-Technologies Used
-Setup and Installation
-Usage
-Contributing
-License
-About the Project
-The Warehouse Management System automates order processing and inventory management for a warehouse. Key functionalities include:
-
-Placing and processing orders.
-Real-time inventory updates.
-Restocking products when inventory falls below minimum levels.
-User authentication via a login system.
-Visualization of inventory levels using both text and bar charts.
-Features
-Order Processing:
-
-Place orders for products.
-Calculate the total price for orders.
-Handle cases where orders exceed available stock or maximum allowed quantity.
-Inventory Management:
-
-Automatic restocking when inventory falls below the minimum threshold.
-Integration with a database to fetch and update product details.
-User Authentication:
-
-Login system with username and password validation.
-Implements a proxy pattern for secure authentication.
-GUI for Visualization:
-
-Interactive interfaces for login and placing orders.
-Real-time visual updates of inventory levels using JFreeChart.
-
 ## Technologies Used
 
 1. Java: Core programming language.
